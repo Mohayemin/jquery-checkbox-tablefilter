@@ -1,0 +1,1054 @@
+<html>
+<head>
+    <title>Checkbox tablesorter test</title>
+    <script type="text/javascript" src="qunit-1.11.0.js"></script>
+    <link rel="stylesheet" type="text/css" href="qunit-1.11.0.css" />
+    <script type="text/javascript" src="jquery.checkboxTablefilter.js"></script>
+</head>
+<body>
+    <table class="wikitable sortable jquery-tablesorter">
+        <thead>
+            <tr>
+                <th class="headerSort" title="Sort ascending">
+                    City
+                </th>
+                <th class="headerSort" title="Sort ascending">
+                    Country
+                </th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <a href="/wiki/Beijing" title="Beijing">Beijing</a>
+                </td>
+                <td>
+                    <span class="flagicon">
+                        China</a>
+                </td>
+                <td>
+                    <b>16</b>
+                </td>
+                <td>
+                    <b>13</b>
+                </td>
+                <td>
+                    <b>19</b>
+                </td>
+                <td>
+                    <b>9</b>
+                </td>
+                <td>
+                    <b>12</b>
+                </td>
+                <td>
+                    23
+                </td>
+                <td>
+                    <b>16</b>
+                </td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/wiki/Bogot%C3%A1" title="Bogotá">Bogotá</a>
+                </td>
+                <td>
+                    <span class="flagicon">
+                        <img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Colombia.svg/22px-Flag_of_Colombia.svg.png"
+                            width="22" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Colombia.svg/33px-Flag_of_Colombia.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Colombia.svg/44px-Flag_of_Colombia.svg.png 2x">&nbsp;</span><a
+                                href="/wiki/Colombia" title="Colombia">Colombia</a>
+                </td>
+                <td>
+                    31
+                </td>
+                <td>
+                    30
+                </td>
+                <td>
+                </td>
+                <td>
+                    <b>20</b>
+                </td>
+                <td>
+                    30
+                </td>
+                <td>
+                    36
+                </td>
+                <td>
+                    33
+                </td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/wiki/Buenos_Aires" title="Buenos Aires">Buenos Aires</a>
+                </td>
+                <td>
+                    <span class="flagicon">
+                        <img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/22px-Flag_of_Argentina.svg.png"
+                            width="22" height="14" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/33px-Flag_of_Argentina.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/44px-Flag_of_Argentina.svg.png 2x">&nbsp;</span><a
+                                href="/wiki/Argentina" title="Argentina">Argentina</a>
+                </td>
+                <td>
+                    21
+                </td>
+                <td>
+                    <b>13</b>
+                </td>
+                <td>
+                    <b>17</b>
+                </td>
+                <td>
+                    59
+                </td>
+                <td>
+                    <b>10</b>
+                </td>
+                <td>
+                    <b>16</b>
+                </td>
+                <td>
+                    <b>19</b>
+                </td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/wiki/Cairo" title="Cairo">Cairo</a>
+                </td>
+                <td>
+                    <span class="flagicon">
+                        <img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Egypt.svg/22px-Flag_of_Egypt.svg.png"
+                            width="22" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Egypt.svg/33px-Flag_of_Egypt.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Egypt.svg/44px-Flag_of_Egypt.svg.png 2x">&nbsp;</span><a
+                                href="/wiki/Egypt" title="Egypt">Egypt</a>
+                </td>
+                <td>
+                    <b>11</b>
+                </td>
+                <td>
+                    <b>17</b>
+                </td>
+                <td>
+                    <b>16</b>
+                </td>
+                <td>
+                    25
+                </td>
+                <td>
+                    <b>17</b>
+                </td>
+                <td>
+                    <b>13</b>
+                </td>
+                <td>
+                    <b>18</b>
+                </td>
+                <td>
+                    <b>45</b>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/wiki/Delhi" title="Delhi">Delhi</a>
+                </td>
+                <td>
+                    <span class="flagicon">
+                        <img alt="" src="//upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/22px-Flag_of_India.svg.png"
+                            width="22" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/33px-Flag_of_India.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/44px-Flag_of_India.svg.png 2x">&nbsp;</span><a
+                                href="/wiki/India" title="India">India</a>
+                </td>
+                <td>
+                    <b>2</b>
+                </td>
+                <td>
+                    <b>2</b>
+                </td>
+                <td>
+                    <b>8</b>
+                </td>
+                <td>
+                    <b>4</b>
+                </td>
+                <td>
+                    <b>15</b>
+                </td>
+                <td>
+                    <b>9</b>
+                </td>
+                <td>
+                    <b>5</b>
+                </td>
+                <td>
+                    <b>7</b>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/wiki/Dhaka" title="Dhaka">Dhaka</a>
+                </td>
+                <td>
+                    <span class="flagicon">
+                        <img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Flag_of_Bangladesh.svg/22px-Flag_of_Bangladesh.svg.png"
+                            width="22" height="13" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Flag_of_Bangladesh.svg/33px-Flag_of_Bangladesh.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Flag_of_Bangladesh.svg/44px-Flag_of_Bangladesh.svg.png 2x">&nbsp;</span><a
+                                href="/wiki/Bangladesh" title="Bangladesh">Bangladesh</a>
+                </td>
+                <td>
+                    24
+                </td>
+                <td>
+                    <b>9</b>
+                </td>
+                <td>
+                </td>
+                <td>
+                    24
+                </td>
+                <td>
+                    <b>15</b>
+                </td>
+                <td>
+                    <b>18</b>
+                </td>
+                <td>
+                    <b>20</b>
+                </td>
+                <td>
+                    <b>38</b>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/wiki/Guangzhou" title="Guangzhou">Guangzhou</a>
+                </td>
+                <td>
+                    <span class="flagicon">
+                        <img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/22px-Flag_of_the_People%27s_Republic_of_China.svg.png"
+                            width="22" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/33px-Flag_of_the_People%27s_Republic_of_China.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/44px-Flag_of_the_People%27s_Republic_of_China.svg.png 2x">&nbsp;</span><a
+                                href="/wiki/China" title="China">China</a>
+                </td>
+                <td>
+                    23
+                </td>
+                <td>
+                    28
+                </td>
+                <td>
+                </td>
+                <td>
+                    26
+                </td>
+                <td>
+                    44
+                </td>
+                <td>
+                    61
+                </td>
+                <td>
+                    <b>2</b>
+                </td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/wiki/Istanbul" title="Istanbul">Istanbul</a>
+                </td>
+                <td>
+                    <span class="flagicon">
+                        <img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/22px-Flag_of_Turkey.svg.png"
+                            width="22" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/33px-Flag_of_Turkey.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/44px-Flag_of_Turkey.svg.png 2x">&nbsp;</span><a
+                                href="/wiki/Turkey" title="Turkey">Turkey</a>
+                </td>
+                <td>
+                    <b>19</b>
+                </td>
+                <td>
+                    <b>20</b>
+                </td>
+                <td>
+                </td>
+                <td>
+                    <b>2</b>
+                </td>
+                <td>
+                    23
+                </td>
+                <td>
+                    <b>17</b>
+                </td>
+                <td>
+                    22
+                </td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/wiki/Jakarta" title="Jakarta">Jakarta</a>
+                </td>
+                <td>
+                    <span class="flagicon">
+                        <img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Indonesia.svg/22px-Flag_of_Indonesia.svg.png"
+                            width="22" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Indonesia.svg/33px-Flag_of_Indonesia.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Indonesia.svg/44px-Flag_of_Indonesia.svg.png 2x">&nbsp;</span><a
+                                href="/wiki/Indonesia" title="Indonesia">Indonesia</a>
+                </td>
+                <td>
+                    <b>4</b>
+                </td>
+                <td>
+                    24
+                </td>
+                <td>
+                    <b>6</b>
+                </td>
+                <td>
+                    <b>12</b>
+                </td>
+                <td>
+                    21
+                </td>
+                <td>
+                    <b>8</b>
+                </td>
+                <td>
+                    <b>11</b>
+                </td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/wiki/Karachi" title="Karachi">Karachi</a>
+                </td>
+                <td>
+                    <span class="flagicon">
+                        <img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/3/32/Flag_of_Pakistan.svg/22px-Flag_of_Pakistan.svg.png"
+                            width="22" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/32/Flag_of_Pakistan.svg/33px-Flag_of_Pakistan.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/3/32/Flag_of_Pakistan.svg/44px-Flag_of_Pakistan.svg.png 2x">&nbsp;</span><a
+                                href="/wiki/Pakistan" title="Pakistan">Pakistan</a>
+                </td>
+                <td>
+                    <b>18</b>
+                </td>
+                <td>
+                    <b>10</b>
+                </td>
+                <td>
+                    <b>20</b>
+                </td>
+                <td>
+                    <b>3</b>
+                </td>
+                <td>
+                    <b>18</b>
+                </td>
+                <td>
+                    22
+                </td>
+                <td>
+                    <b>8</b>
+                </td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/wiki/Kinshasa" title="Kinshasa">Kinshasa</a>
+                </td>
+                <td>
+                    <span class="flagicon">
+                        <img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Flag_of_the_Democratic_Republic_of_the_Congo.svg/22px-Flag_of_the_Democratic_Republic_of_the_Congo.svg.png"
+                            width="22" height="17" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Flag_of_the_Democratic_Republic_of_the_Congo.svg/33px-Flag_of_the_Democratic_Republic_of_the_Congo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Flag_of_the_Democratic_Republic_of_the_Congo.svg/44px-Flag_of_the_Democratic_Republic_of_the_Congo.svg.png 2x">&nbsp;</span><a
+                                href="/wiki/Democratic_Republic_of_the_Congo" title="Democratic Republic of the Congo">Democratic
+                                Republic of the Congo</a>
+                </td>
+                <td>
+                    29
+                </td>
+                <td>
+                    29
+                </td>
+                <td>
+                </td>
+                <td>
+                    <b>17</b>
+                </td>
+                <td>
+                    46
+                </td>
+                <td>
+                    28
+                </td>
+                <td>
+                    31
+                </td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/wiki/Kolkata" title="Kolkata">Kolkata</a>
+                </td>
+                <td>
+                    <span class="flagicon">
+                        <img alt="" src="//upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/22px-Flag_of_India.svg.png"
+                            width="22" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/33px-Flag_of_India.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/44px-Flag_of_India.svg.png 2x">&nbsp;</span><a
+                                href="/wiki/India" title="India">India</a>
+                </td>
+                <td>
+                    <b>13</b>
+                </td>
+                <td>
+                    <b>8</b>
+                </td>
+                <td>
+                    <b>14</b>
+                </td>
+                <td>
+                    44
+                </td>
+                <td>
+                    <b>9</b>
+                </td>
+                <td>
+                    <b>14</b>
+                </td>
+                <td>
+                    <b>15</b>
+                </td>
+                <td>
+                    <b>10</b>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/wiki/Lagos" title="Lagos">Lagos</a>
+                </td>
+                <td>
+                    <span class="flagicon">
+                        <img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/79/Flag_of_Nigeria.svg/22px-Flag_of_Nigeria.svg.png"
+                            width="22" height="11" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/79/Flag_of_Nigeria.svg/33px-Flag_of_Nigeria.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/79/Flag_of_Nigeria.svg/44px-Flag_of_Nigeria.svg.png 2x">&nbsp;</span><a
+                                href="/wiki/Nigeria" title="Nigeria">Nigeria</a>
+                </td>
+                <td>
+                    25
+                </td>
+                <td>
+                    <b>18</b>
+                </td>
+                <td>
+                </td>
+                <td>
+                    <b>15</b>
+                </td>
+                <td>
+                    <b>7</b>
+                </td>
+                <td>
+                    <b>19</b>
+                </td>
+                <td>
+                    25
+                </td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/wiki/Lima" title="Lima">Lima</a>
+                </td>
+                <td>
+                    <span class="flagicon">
+                        <img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Flag_of_Peru.svg/22px-Flag_of_Peru.svg.png"
+                            width="22" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Flag_of_Peru.svg/33px-Flag_of_Peru.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Flag_of_Peru.svg/44px-Flag_of_Peru.svg.png 2x">&nbsp;</span><a
+                                href="/wiki/Peru" title="Peru">Peru</a>
+                </td>
+                <td>
+                    30
+                </td>
+                <td>
+                    27
+                </td>
+                <td>
+                </td>
+                <td>
+                    <b>18</b>
+                </td>
+                <td>
+                    26
+                </td>
+                <td>
+                    40
+                </td>
+                <td>
+                    32
+                </td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/wiki/London" title="London">London</a>
+                </td>
+                <td>
+                    <span class="flagicon">
+                        <img alt="" src="//upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/22px-Flag_of_the_United_Kingdom.svg.png"
+                            width="22" height="11" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/33px-Flag_of_the_United_Kingdom.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/44px-Flag_of_the_United_Kingdom.svg.png 2x">&nbsp;</span><a
+                                href="/wiki/United_Kingdom" title="United Kingdom">United Kingdom</a>
+                </td>
+                <td>
+                    32
+                </td>
+                <td>
+                    30
+                </td>
+                <td>
+                    <b>18</b>
+                </td>
+                <td>
+                    <b>19</b>
+                </td>
+                <td>
+                    25
+                </td>
+                <td>
+                    <b>20</b>
+                </td>
+                <td>
+                    24
+                </td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/wiki/Los_Angeles" title="Los Angeles">Los Angeles</a>
+                </td>
+                <td>
+                    <span class="flagicon">
+                        <img alt="" src="//upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/22px-Flag_of_the_United_States.svg.png"
+                            width="22" height="12" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/33px-Flag_of_the_United_States.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/44px-Flag_of_the_United_States.svg.png 2x">&nbsp;</span><a
+                                href="/wiki/United_States" title="United States">United States</a>
+                </td>
+                <td>
+                    <b>15</b>
+                </td>
+                <td>
+                    <b>12</b>
+                </td>
+                <td>
+                    <b>13</b>
+                </td>
+                <td>
+                    47
+                </td>
+                <td>
+                    <b>8</b>
+                </td>
+                <td>
+                    <b>11</b>
+                </td>
+                <td>
+                    <b>12</b>
+                </td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/wiki/Metro_Manila" title="Metro Manila">Metro Manila</a>
+                </td>
+                <td>
+                    <span class="flagicon">
+                        <img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/9/99/Flag_of_the_Philippines.svg/22px-Flag_of_the_Philippines.svg.png"
+                            width="22" height="11" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/99/Flag_of_the_Philippines.svg/33px-Flag_of_the_Philippines.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/99/Flag_of_the_Philippines.svg/44px-Flag_of_the_Philippines.svg.png 2x">&nbsp;</span><a
+                                href="/wiki/Philippines" title="Philippines">Philippines</a>
+                </td>
+                <td>
+                    <b>5</b>
+                </td>
+                <td>
+                    <b>15</b>
+                </td>
+                <td>
+                    <b>11</b>
+                </td>
+                <td>
+                </td>
+                <td>
+                    <b>16</b>
+                </td>
+                <td>
+                    <b>5</b>
+                </td>
+                <td>
+                    <b>10</b>
+                </td>
+                <td>
+                    <b>1</b>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/wiki/Mexico_City" title="Mexico City">Mexico City</a>
+                </td>
+                <td>
+                    <span class="flagicon">
+                        <img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Mexico.svg/22px-Flag_of_Mexico.svg.png"
+                            width="22" height="13" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Mexico.svg/33px-Flag_of_Mexico.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Mexico.svg/44px-Flag_of_Mexico.svg.png 2x">&nbsp;</span><a
+                                href="/wiki/Mexico" title="Mexico">Mexico</a>
+                </td>
+                <td>
+                    <b>9</b>
+                </td>
+                <td>
+                    <b>5</b>
+                </td>
+                <td>
+                    <b>3</b>
+                </td>
+                <td>
+                    <b>10</b>
+                </td>
+                <td>
+                    <b>2</b>
+                </td>
+                <td>
+                    <b>2</b>
+                </td>
+                <td>
+                    <b>7</b>
+                </td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/wiki/Moscow" title="Moscow">Moscow</a>
+                </td>
+                <td>
+                    <span class="flagicon">
+                        <img alt="" src="//upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/22px-Flag_of_Russia.svg.png"
+                            width="22" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/33px-Flag_of_Russia.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/44px-Flag_of_Russia.svg.png 2x">&nbsp;</span><a
+                                href="/wiki/Russia" title="Russia">Russia</a>
+                </td>
+                <td>
+                    <b>17</b>
+                </td>
+                <td>
+                    <b>19</b>
+                </td>
+                <td>
+                    <b>15</b>
+                </td>
+                <td>
+                    <b>7</b>
+                </td>
+                <td>
+                    24
+                </td>
+                <td>
+                    <b>15</b>
+                </td>
+                <td>
+                    <b>16</b>
+                </td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/wiki/Mumbai" title="Mumbai">Mumbai</a>
+                </td>
+                <td>
+                    <span class="flagicon">
+                        <img alt="" src="//upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/22px-Flag_of_India.svg.png"
+                            width="22" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/33px-Flag_of_India.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/44px-Flag_of_India.svg.png 2x">&nbsp;</span><a
+                                href="/wiki/India" title="India">India</a>
+                </td>
+                <td>
+                    <b>6</b>
+                </td>
+                <td>
+                    <b>4</b>
+                </td>
+                <td>
+                    <b>5</b>
+                </td>
+                <td>
+                    <b>2</b>
+                </td>
+                <td>
+                    <b>3</b>
+                </td>
+                <td>
+                    <b>5</b>
+                </td>
+                <td>
+                    <b>1</b>
+                </td>
+                <td>
+                    <b>23</b>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/wiki/New_York_City" title="New York City">New York City</a>
+                </td>
+                <td>
+                    <span class="flagicon">
+                        <img alt="" src="//upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/22px-Flag_of_the_United_States.svg.png"
+                            width="22" height="12" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/33px-Flag_of_the_United_States.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/44px-Flag_of_the_United_States.svg.png 2x">&nbsp;</span><a
+                                href="/wiki/United_States" title="United States">United States</a>
+                </td>
+                <td>
+                    <b>7</b>
+                </td>
+                <td>
+                    <b>6</b>
+                </td>
+                <td>
+                    <b>4</b>
+                </td>
+                <td>
+                    <b>13</b>
+                </td>
+                <td>
+                    <b>5</b>
+                </td>
+                <td>
+                    <b>3</b>
+                </td>
+                <td>
+                    <b>8</b>
+                </td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/wiki/Osaka" title="Osaka">Osaka</a>
+                </td>
+                <td>
+                    <span class="flagicon">
+                        <img alt="" src="//upload.wikimedia.org/wikipedia/en/thumb/9/9e/Flag_of_Japan.svg/22px-Flag_of_Japan.svg.png"
+                            width="22" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/en/thumb/9/9e/Flag_of_Japan.svg/33px-Flag_of_Japan.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/9/9e/Flag_of_Japan.svg/44px-Flag_of_Japan.svg.png 2x">&nbsp;</span><a
+                                href="/wiki/Japan" title="Japan">Japan</a>
+                </td>
+                <td>
+                    <b>12</b>
+                </td>
+                <td>
+                    <b>16</b>
+                </td>
+                <td>
+                    <b>9</b>
+                </td>
+                <td>
+                </td>
+                <td>
+                    <b>18</b>
+                </td>
+                <td>
+                    <b>12</b>
+                </td>
+                <td>
+                    <b>14</b>
+                </td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/wiki/Rio_de_Janeiro" title="Rio de Janeiro">Rio de Janeiro</a>
+                </td>
+                <td>
+                    <span class="flagicon">
+                        <img alt="" src="//upload.wikimedia.org/wikipedia/en/thumb/0/05/Flag_of_Brazil.svg/22px-Flag_of_Brazil.svg.png"
+                            width="22" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/en/thumb/0/05/Flag_of_Brazil.svg/33px-Flag_of_Brazil.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/0/05/Flag_of_Brazil.svg/44px-Flag_of_Brazil.svg.png 2x">&nbsp;</span><a
+                                href="/wiki/Brazil" title="Brazil">Brazil</a>
+                </td>
+                <td>
+                    22
+                </td>
+                <td>
+                    <b>14</b>
+                </td>
+                <td>
+                </td>
+                <td>
+                    27
+                </td>
+                <td>
+                    <b>19</b>
+                </td>
+                <td>
+                    24
+                </td>
+                <td>
+                    23
+                </td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/wiki/S%C3%A3o_Paulo" title="São Paulo">São Paulo</a>
+                </td>
+                <td>
+                    <span class="flagicon">
+                        <img alt="" src="//upload.wikimedia.org/wikipedia/en/thumb/0/05/Flag_of_Brazil.svg/22px-Flag_of_Brazil.svg.png"
+                            width="22" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/en/thumb/0/05/Flag_of_Brazil.svg/33px-Flag_of_Brazil.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/0/05/Flag_of_Brazil.svg/44px-Flag_of_Brazil.svg.png 2x">&nbsp;</span><a
+                                href="/wiki/Brazil" title="Brazil">Brazil</a>
+                </td>
+                <td>
+                    <b>8</b>
+                </td>
+                <td>
+                    <b>3</b>
+                </td>
+                <td>
+                    <b>7</b>
+                </td>
+                <td>
+                    <b>6</b>
+                </td>
+                <td>
+                    <b>4</b>
+                </td>
+                <td>
+                    <b>6</b>
+                </td>
+                <td>
+                    <b>9</b>
+                </td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/wiki/Seoul" title="Seoul">Seoul</a>
+                </td>
+                <td>
+                    <span class="flagicon">
+                        <img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/22px-Flag_of_South_Korea.svg.png"
+                            width="22" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/33px-Flag_of_South_Korea.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/44px-Flag_of_South_Korea.svg.png 2x">&nbsp;</span><a
+                                href="/wiki/South_Korea" title="South Korea">South Korea</a>
+                </td>
+                <td>
+                    <b>3</b>
+                </td>
+                <td>
+                    22
+                </td>
+                <td>
+                    <b>2</b>
+                </td>
+                <td>
+                    <b>8</b>
+                </td>
+                <td>
+                    <b>2</b>
+                </td>
+                <td>
+                    <b>4</b>
+                </td>
+                <td>
+                    <b>3</b>
+                </td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/wiki/Shanghai" title="Shanghai">Shanghai</a>
+                </td>
+                <td>
+                    <span class="flagicon">
+                        <img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/22px-Flag_of_the_People%27s_Republic_of_China.svg.png"
+                            width="22" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/33px-Flag_of_the_People%27s_Republic_of_China.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/44px-Flag_of_the_People%27s_Republic_of_China.svg.png 2x">&nbsp;</span><a
+                                href="/wiki/China" title="China">China</a>
+                </td>
+                <td>
+                    <b>10</b>
+                </td>
+                <td>
+                    <b>7</b>
+                </td>
+                <td>
+                    <b>10</b>
+                </td>
+                <td>
+                    <b>1</b>
+                </td>
+                <td>
+                    <b>6</b>
+                </td>
+                <td>
+                    <b>10</b>
+                </td>
+                <td>
+                    <b>4</b>
+                </td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/wiki/Shenzhen" title="Shenzhen">Shenzhen</a>
+                </td>
+                <td>
+                    <span class="flagicon">
+                        <img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/22px-Flag_of_the_People%27s_Republic_of_China.svg.png"
+                            width="22" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/33px-Flag_of_the_People%27s_Republic_of_China.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/44px-Flag_of_the_People%27s_Republic_of_China.svg.png 2x">&nbsp;</span><a
+                                href="/wiki/China" title="China">China</a>
+                </td>
+                <td>
+                    <b>14</b>
+                </td>
+                <td>
+                    26
+                </td>
+                <td>
+                    <b>12</b>
+                </td>
+                <td>
+                    <b>11</b>
+                </td>
+                <td>
+                </td>
+                <td>
+                </td>
+                <td>
+                    29
+                </td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/wiki/Tehran" title="Tehran">Tehran</a>
+                </td>
+                <td>
+                    <span class="flagicon">
+                        <img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Flag_of_Iran.svg/22px-Flag_of_Iran.svg.png"
+                            width="22" height="13" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Flag_of_Iran.svg/33px-Flag_of_Iran.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Flag_of_Iran.svg/44px-Flag_of_Iran.svg.png 2x">&nbsp;</span><a
+                                href="/wiki/Iran" title="Iran">Iran</a>
+                </td>
+                <td>
+                    39
+                </td>
+                <td>
+                    35
+                </td>
+                <td>
+                </td>
+                <td>
+                    <b>16</b>
+                </td>
+                <td>
+                    27
+                </td>
+                <td>
+                    21
+                </td>
+                <td>
+                    21
+                </td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/wiki/Tianjin" title="Tianjin">Tianjin</a>
+                </td>
+                <td>
+                    <span class="flagicon">
+                        <img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/22px-Flag_of_the_People%27s_Republic_of_China.svg.png"
+                            width="22" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/33px-Flag_of_the_People%27s_Republic_of_China.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/44px-Flag_of_the_People%27s_Republic_of_China.svg.png 2x">&nbsp;</span><a
+                                href="/wiki/China" title="China">China</a>
+                </td>
+                <td>
+                    44
+                </td>
+                <td>
+                    32
+                </td>
+                <td>
+                </td>
+                <td>
+                    30
+                </td>
+                <td>
+                    <b>20</b>
+                </td>
+                <td>
+                    52
+                </td>
+                <td>
+                    28
+                </td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/wiki/Tokyo" title="Tokyo">Tokyo</a>
+                </td>
+                <td>
+                    <span class="flagicon">
+                        <img alt="" src="//upload.wikimedia.org/wikipedia/en/thumb/9/9e/Flag_of_Japan.svg/22px-Flag_of_Japan.svg.png"
+                            width="22" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/en/thumb/9/9e/Flag_of_Japan.svg/33px-Flag_of_Japan.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/9/9e/Flag_of_Japan.svg/44px-Flag_of_Japan.svg.png 2x">&nbsp;</span><a
+                                href="/wiki/Japan" title="Japan">Japan</a>
+                </td>
+                <td>
+                    <b>1</b>
+                </td>
+                <td>
+                    <b>1</b>
+                </td>
+                <td>
+                    <b>1</b>
+                </td>
+                <td>
+                    <b>14</b>
+                </td>
+                <td>
+                    <b>1</b>
+                </td>
+                <td>
+                    <b>1</b>
+                </td>
+                <td>
+                    <b>1</b>
+                </td>
+                <td>
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+        </tfoot>
+    </table>
+    <table id="filterable">
+        <thead>
+            <tr>
+                <th>
+                    Name
+                </th>
+                <th>
+                    Country
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
